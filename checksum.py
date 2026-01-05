@@ -17,4 +17,4 @@ def bfs_checksum(directory):
 
 if __name__ == "__main__":
     my_checksum = bfs_checksum(".")
-    print(f"Directory Fingerprint: {my_checksum}")
+    print(f"checksum:{my_checksum}")
